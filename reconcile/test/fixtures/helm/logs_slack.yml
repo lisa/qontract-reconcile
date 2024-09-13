@@ -92,7 +92,7 @@ objects:
                 inputs:
                   - despam_events
                 max_events: 20
-                end_event_period_ms: 1000
+                end_every_period_ms: 1000
                 merge_strategies:
                   "message": concat_newline
 
